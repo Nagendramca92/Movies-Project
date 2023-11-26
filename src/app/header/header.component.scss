@@ -1,0 +1,24 @@
+.container-div{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #e2aa02;
+    color: white;
+
+}
+
+.logo{
+    font-size: 28px;
+    font-weight: bold;
+    font-family: cursive;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.logoff{
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 20px;
+    cursor: pointer;
+}

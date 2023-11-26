@@ -1,0 +1,51 @@
+.login-container{
+    width: 100%;
+    height:100vh;
+    display: flex;
+    background: linear-gradient(135deg, #fffd6f 0%, #e2aa02 100% );
+}
+
+.content-container{
+    text-align: right;
+    position: absolute;
+    right: 5vw;
+    top: 5vh;
+    left: 30vw;
+}
+.logo{
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: cursive;
+}
+.desc{
+    font-size: 2rem;
+    font-family: 'Lucida', cursive;
+}
+
+.login-form{
+    width: 30vw;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 5px 5px 5px  gray;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    padding: 20px;
+}
+.form-group{
+   padding: 5px;
+   text-align: left;
+}
+label{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.form-control{
+border: 1px solid;
+}
+.btn{
+    margin-top: 10px;
+}
+.error-msg{
+    color:red;
+}
